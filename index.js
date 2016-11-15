@@ -4,7 +4,7 @@ import { NativeModules } from 'react-native';
 
 const RNLocalytics = NativeModules.RNLocalytics;
 
-const RNLocalytics = {
+const Localytics = {
     tagScreen : function(screenName) {
         return RNLocalytics.tagScreen(screenName);
     },
@@ -13,4 +13,4 @@ const RNLocalytics = {
     }
 }
 
-module.exports = RNLocalytics;
+module.exports = Localytics;

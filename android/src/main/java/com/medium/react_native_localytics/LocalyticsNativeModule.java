@@ -30,13 +30,13 @@ public class LocalyticsNativeModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void tagScreen(final String screenName) {
-        Log.d("RNLocalytics", "tagScreen()" + screenName);
+        Log.d("RNLocalytics", ":tagScreen(),screenName:" + screenName);
         Localytics.tagScreen(screenName);
     }
     
     @ReactMethod
     public void tagEvent(final String eventName,final ReadableMap props) {
-        Log.d("RNLocalytics", "tagEvent()" + eventName);
+        Log.d("RNLocalytics", ":tagEvent(),eventName:" + eventName);
         Localytics.tagEvent(eventName, readableMapToStringMap(props));
     }
 
