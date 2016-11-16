@@ -5,12 +5,9 @@
 
 RCT_EXPORT_MODULE(RNLocalytics);
 
-RCT_EXPORT_METHOD(tagEvent:(NSDictionary*)params)
+RCT_EXPORT_METHOD(tagEvent:(NSString*)eventName attributes:(NSDictionary*)props)
 {
-    NSString* eventName = params[@"eventName"];
-    NSDictionary* attributes = params[@"attributes"];
-    
-    [Localytics tagEvent:eventName attributes:attributes];
+    [Localytics tagEvent:eventName attributes:props];
 }
 
 RCT_EXPORT_METHOD(tagScreen:(NSString*)screenName)
