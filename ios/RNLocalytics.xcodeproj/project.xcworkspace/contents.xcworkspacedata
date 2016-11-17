@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:react-native-localytics.xcodeproj">
+      location = "self:RNLocalytics.xcodeproj">
    </FileRef>
 </Workspace>

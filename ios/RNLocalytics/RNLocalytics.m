@@ -1,4 +1,4 @@
-#import "react-native-localytics.h"
+#import "RNLocalytics.h"
 #import <Localytics/Localytics.h>
 
 @implementation react_native_localytics

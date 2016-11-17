@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E326E7B1DDC29E200807B13"
-               BuildableName = "libreact-native-localytics.a"
-               BlueprintName = "react-native-localytics"
-               ReferencedContainer = "container:react-native-localytics.xcodeproj">
+               BlueprintIdentifier = "1E3CE3411DDDD85E00C1C670"
+               BuildableName = "libRNLocalytics.a"
+               BlueprintName = "RNLocalytics"
+               ReferencedContainer = "container:RNLocalytics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E326E7B1DDC29E200807B13"
-            BuildableName = "libreact-native-localytics.a"
-            BlueprintName = "react-native-localytics"
-            ReferencedContainer = "container:react-native-localytics.xcodeproj">
+            BlueprintIdentifier = "1E3CE3411DDDD85E00C1C670"
+            BuildableName = "libRNLocalytics.a"
+            BlueprintName = "RNLocalytics"
+            ReferencedContainer = "container:RNLocalytics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E326E7B1DDC29E200807B13"
-            BuildableName = "libreact-native-localytics.a"
-            BlueprintName = "react-native-localytics"
-            ReferencedContainer = "container:react-native-localytics.xcodeproj">
+            BlueprintIdentifier = "1E3CE3411DDDD85E00C1C670"
+            BuildableName = "libRNLocalytics.a"
+            BlueprintName = "RNLocalytics"
+            ReferencedContainer = "container:RNLocalytics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

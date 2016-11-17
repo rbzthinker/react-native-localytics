@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>react-native-localytics.xcscheme</key>
+		<key>RNLocalytics.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1E326E7B1DDC29E200807B13</key>
+		<key>1E3CE3411DDDD85E00C1C670</key>
 		<dict>
 			<key>primary</key>
 			<true/>
