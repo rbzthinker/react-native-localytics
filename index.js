@@ -10,7 +10,10 @@ const Localytics = {
     },
     tagEvent : function(eventName,props) {
         return RNLocalytics.tagEvent(eventName,props);
-    }
+    },
+    setCustomerId: function(customerId) {
+    	return RNLocalytics.setCustomerId(customerId);
+    },
 }
 
 module.exports = Localytics;
