@@ -15,4 +15,9 @@ RCT_EXPORT_METHOD(tagScreen:(NSString*)screenName)
     [Localytics tagScreen:screenName];
 }
 
+RCT_EXPORT_METHOD(setCustomerId:(NSString*)customerId)
+{
+    [Localytics setCustomerId:customerId];
+}
+
 @end
