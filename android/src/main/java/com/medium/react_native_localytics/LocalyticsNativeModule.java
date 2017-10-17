@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.ArrayList;
 import java.util.List;
+
 import android.util.Log;
 
 import com.localytics.android.Localytics;
@@ -40,9 +41,15 @@ public class LocalyticsNativeModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void tagEvent(final String eventName,final ReadableMap props) {
+    public void tagEvent(final String eventName, final ReadableMap props) {
         Log.d("RNLocalytics", ":tagEvent(),eventName:" + eventName);
         Localytics.tagEvent(eventName, readableMapToStringMap(props));
+    }
+
+    @ReactMethod
+    public void dismissCurrentInAppMessage() {
+        Localytics.dismissCurrentInAppMessage();
+        Localytics.clearInAppMessageDisplayActivity();
     }
 
     private Map<String, String> readableMapToStringMap(ReadableMap readableMap) {
