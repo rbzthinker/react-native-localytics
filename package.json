@@ -1,11 +1,11 @@
 {
   "name": "react-native-localytics",
-  "version": "0.0.9",
+  "version": "0.1.1",
   "description": "RN Bridge for the Localytics Library.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "irvingdp",
+  "author": "rbzthinker",
   "license": "MIT"
 }

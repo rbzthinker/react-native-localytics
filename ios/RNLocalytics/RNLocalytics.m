@@ -20,4 +20,9 @@ RCT_EXPORT_METHOD(setCustomerId:(NSString*)customerId)
     [Localytics setCustomerId:customerId];
 }
 
+RCT_EXPORT_METHOD(dismissCurrentInAppMessage)
+{
+    [Localytics dismissCurrentInAppMessage];
+}
+
 @end
